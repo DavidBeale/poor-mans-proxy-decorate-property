@@ -31,7 +31,7 @@
     "url": "http://bealearts.co.uk/"
   },
   "devDependencies": {
-    "jslint": "^0.10.3",
+    "jshint": "^2.9.3",
     "mocha": "^3.1.0"
   }
 }
