@@ -4,19 +4,21 @@
   "description": "Decorate an Object's property for Proxy interception",
   "main": "lib/decorate-property.js",
   "scripts": {
-    "test": "mocha test/"
+    "test": "mocha test/",
+    "lint": "jshint lib/*.js",
+    "pretest": "npm run lint"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bealearts/poor-mans-proxy.git"
+    "url": "https://github.com/bealearts/poor-mans-proxy-decorate-property.git"
   },
   "bugs": {
-    "url": "https://github.com/bealearts/poor-mans-proxy/issues"
+    "url": "https://github.com/bealearts/poor-mans-proxy-decorate-property/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/bealearts/poor-mans-proxy/blob/master/LICENSE"
+      "url": "https://github.com/bealearts/poor-mans-proxy-decorate-property/blob/master/LICENSE"
     }
   ],
   "keywords": [
