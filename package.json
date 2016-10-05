@@ -29,5 +29,9 @@
   "author": {
     "name": "David Beale",
     "url": "http://bealearts.co.uk/"
+  },
+  "devDependencies": {
+    "jslint": "^0.10.3",
+    "mocha": "^3.1.0"
   }
 }
