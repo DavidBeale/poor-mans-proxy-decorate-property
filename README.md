@@ -11,6 +11,25 @@ npm install poor-mans-proxy-decorate-property --save
 
 ## Usage
 ```js
+var decorateProperty = require('poor-mans-proxy-decorate-property');
+
+var target = {
+	name: 'Obj'
+};
+
+var proxy = {};
+
+decorateProperty(proxy, target, {
+	get: function(target, prop, receiver) {
+		console.log(prop, 'accessed');
+		return target[prop];
+	}
+}, 'name');
+
+console.log(proxy.name);
+
+// : name accessed
+// : Obj
 
 ```
 
