@@ -15,12 +15,7 @@
   "bugs": {
     "url": "https://github.com/bealearts/poor-mans-proxy-decorate-property/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/bealearts/poor-mans-proxy-decorate-property/blob/master/LICENSE"
-    }
-  ],
+  "license": "MIT",
   "keywords": [
     "proxy",
     "property",
@@ -31,6 +26,7 @@
     "url": "http://bealearts.co.uk/"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
     "jshint": "^2.9.3",
     "mocha": "^3.1.0"
   }

@@ -33,6 +33,8 @@ console.log(proxy.name);
 
 ```
 
+## Test
+
 ```shell
 npm install
 npm test
