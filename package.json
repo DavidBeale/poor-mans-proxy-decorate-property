@@ -1,6 +1,6 @@
 {
   "name": "poor-mans-proxy-decorate-property",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Decorate an Object's property for Proxy interception",
   "main": "lib/decorate-property.js",
   "scripts": {
